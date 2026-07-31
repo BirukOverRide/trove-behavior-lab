@@ -52,6 +52,15 @@ sudo ./deploy/oracle/install-service.sh
 # http://YOUR_PUBLIC_IP:8000
 ```
 
+## Deploy on Railway (trial credits)
+
+Connect the GitHub repo — Docker builds UI + API + Python:
+
+→ **[deploy/railway/RAILWAY.md](deploy/railway/RAILWAY.md)**
+
+```text
+railway.app → New Project → Deploy from GitHub → trove-behavior-lab
+```
 ### Demo account
 
 - Email: `demo@trove.shop`
