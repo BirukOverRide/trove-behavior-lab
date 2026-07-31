@@ -1,0 +1,35 @@
+# Secrets — never commit
+server/.env
+server/XAI_API_KEY.txt
+server/GEMINI_API_KEY.txt
+server/PUT_API_KEY_HERE.txt
+.env
+*.pem
+*.key
+
+# Dependencies & build
+node_modules/
+client/dist/
+
+# Local DB & runtime
+*.db
+*.db-wal
+*.db-shm
+server/db/data/
+server/logs/
+logs/
+
+# ML training junk (keep trained model weights if present; drop run dumps)
+ml_transformer/models/runs/
+ml_transformer/models/train.lock
+ml_transformer/models/train_progress.json
+ml_transformer/models/auto_train_state.json
+ml_transformer/__pycache__/
+**/__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+*.log
+.idea/
+.vscode/
